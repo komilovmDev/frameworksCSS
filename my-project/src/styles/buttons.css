@@ -1,0 +1,66 @@
+body {
+    background-color: #333;
+}
+
+.btn {
+    width: 85px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #FFFFFF;
+}
+.btn:active {
+    transform: scale(0.96);
+    background-color: #0000009d;
+}
+
+.btn-red {
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(203, 36, 36);
+    color: rgb(255, 255, 255);
+    border: 1px solid #FFFFFF;
+}
+.btn-red:hover {
+    animation: btn-red 0.5s ease;
+    cursor: pointer;
+}
+.btn-red:active {
+    transform: scale(0.96);
+}
+
+.btn-dark {
+
+}
+
+.btn-blue {
+
+}
+
+.btn-light {
+
+}
+
+.btn-link {
+
+}
+
+
+@keyframes btn-red {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
